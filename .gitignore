@@ -14,4 +14,8 @@ led_blink/.settings/
 led_blink/led_blink Debug.cfg
 led_blink/led_blink Debug.launch
 
+adc_1ch_polling/Debug/
+adc_1ch_polling/.settings/
+adc_1ch_polling/adc_1ch_polling Debug.cfg
+adc_1ch_polling/adc_1ch_polling Debug.launch
 
