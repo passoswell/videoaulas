@@ -19,3 +19,18 @@ adc_1ch_polling/.settings/
 adc_1ch_polling/adc_1ch_polling Debug.cfg
 adc_1ch_polling/adc_1ch_polling Debug.launch
 
+adc_1ch_interruption/Debug/
+adc_1ch_interruption/.settings/
+adc_1ch_interruption/adc_1ch_interruption Debug.cfg
+adc_1ch_interruption/adc_1ch_interruption Debug.launch
+
+timer_ex1/Debug/
+timer_ex1/.settings/
+timer_ex1/timer_ex1 Debug.cfg
+timer_ex1/timer_ex1 Debug.launch
+
+timer_ex2/Debug/
+timer_ex2/.settings/
+timer_ex2/timer_ex2 Debug.cfg
+timer_ex2/timer_ex2 Debug.launch
+
