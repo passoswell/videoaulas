@@ -34,3 +34,13 @@ timer_ex2/.settings/
 timer_ex2/timer_ex2 Debug.cfg
 timer_ex2/timer_ex2 Debug.launch
 
+uart_polling/Debug/
+uart_polling/.settings/
+uart_polling/uart_polling Debug.cfg
+uart_polling/uart_polling Debug.launch
+
+uart_interruption/Debug/
+uart_interruption/.settings/
+uart_interruption/uart_interruption Debug.cfg
+uart_interruption/uart_interruption Debug.launch
+
