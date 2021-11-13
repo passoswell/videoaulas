@@ -44,3 +44,8 @@ uart_interruption/.settings/
 uart_interruption/uart_interruption Debug.cfg
 uart_interruption/uart_interruption Debug.launch
 
+iic_polling/Debug/
+iic_polling/.settings/
+iic_polling/iic_polling Debug.cfg
+iic_polling/iic_polling Debug.launch
+
