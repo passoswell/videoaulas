@@ -49,3 +49,8 @@ iic_polling/.settings/
 iic_polling/iic_polling Debug.cfg
 iic_polling/iic_polling Debug.launch
 
+spi_polling/Debug/
+spi_polling/.settings/
+spi_polling/spi_polling Debug.cfg
+spi_polling/spi_polling Debug.launch
+
