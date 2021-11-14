@@ -99,16 +99,26 @@ int main(void)
 
 
 
+    /* Showing in a LED the state of a button */
+    PB1_state = HAL_GPIO_ReadPin(PB1_GPIO_Port, PB1_Pin);
+    if( PB1_state == 0 )
+    {
+      HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, 0);
+    }
+    else
+    {
+      HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, 1);
+    }
 
-	  PB1_state = HAL_GPIO_ReadPin(PB1_GPIO_Port, PB1_Pin);
-	  if( PB1_state == 0 )
-	  {
-		  HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, 0);
-	  }
-	  else
-	  {
-		  HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, 1);
-	  }
+
+    /* Blinking another LED*/
+    HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, 1);
+
+    HAL_Delay(100); /* 100 ms */
+
+    HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, 0);
+
+    HAL_Delay(100); /* 100 ms */
 
 
   }
