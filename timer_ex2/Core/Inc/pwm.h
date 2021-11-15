@@ -1,7 +1,7 @@
 /**
  * @file  pwm.h
  * @date  13-December-2020
- * @brief UART configuration and access.
+ * @brief PWM configuration and access.
  *
  * @author
  * @author

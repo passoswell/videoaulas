@@ -54,3 +54,8 @@ spi_polling/.settings/
 spi_polling/spi_polling Debug.cfg
 spi_polling/spi_polling Debug.launch
 
+led_blink_rtos/Debug/
+led_blink_rtos/.settings/
+led_blink_rtos/led_blink_rtos Debug.cfg
+led_blink_rtos/led_blink_rtos Debug.launch
+
